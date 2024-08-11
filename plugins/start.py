@@ -133,7 +133,7 @@ async def start_command(client: Client, message: Message):
             for snt_msg in snt_msgs:
                 try:
                     await snt_msg.delete()
-                    await SD.delete()
+                    await SD.delete(300)
                 except:
                     pass
 
