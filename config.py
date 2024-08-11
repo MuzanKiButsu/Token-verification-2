@@ -31,7 +31,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Kizaru")
 # 
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "gplinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "3edf2d061d406d8265bb74a0636199c706c85846)
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "3edf2d061d406d8265bb74a0636199c706c85846")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/Ultroid_Official/18") # shareus ka tut_vid he 
